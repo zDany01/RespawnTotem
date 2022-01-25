@@ -6,6 +6,8 @@
 .vscode
 .gradle
 .gitattributes
+[Bb]uild
+run
 # User-specific files
 *.rsuser
 *.suo
