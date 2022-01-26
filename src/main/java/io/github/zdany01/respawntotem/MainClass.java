@@ -1,6 +1,5 @@
 package io.github.zdany01.respawntotem;
 
-import io.github.zdany01.Totem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;

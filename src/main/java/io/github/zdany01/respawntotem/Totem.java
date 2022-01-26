@@ -1,8 +1,5 @@
-package io.github.zdany01;
+package io.github.zdany01.respawntotem;
 
-import com.google.errorprone.annotations.OverridingMethodsMustInvokeSuper;
-
-import io.github.zdany01.respawntotem.MainClass;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
@@ -24,7 +21,6 @@ public class Totem extends Item{
     }
 
     public InteractionResultHolder<ItemStack> use(Level world, Player player, InteractionHand hand){
-        
         return super.use(world,player,hand);
     }
 
