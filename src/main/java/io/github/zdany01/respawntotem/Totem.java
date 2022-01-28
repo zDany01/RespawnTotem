@@ -25,17 +25,22 @@ public class Totem extends Item{
                 String[] PlayerList = sMinecraftServer.getPlayerNames();
                 for(int i = 0; i < PlayerList.length; i++){ if(PlayerList[i].equals(handItemName)) playerFound = true; }
                 if(playerFound){
-                    String respawncmd = "tellraw @a [\"\",{\"text\":\"✞ Player \"},{\"text\":\"" + handItemName + "\",\"bold\":true,\"color\":\"green\"},{\"text\":\" has been resurrected ✞\"}]";
-                    Utils.ExecuteCommandAs(player, String.format("teleport {0} {1}", handItemName, player.getDisplayName().getString()), 4, sMinecraftServer);
-                    player.getInventory().removeItem(player.getItemInHand(hand));
-                    Utils.ExecuteCommandAs(player, "gamemode survival " + handItemName, 4, sMinecraftServer);
-                    Utils.ExecuteCommandAs(player, respawncmd, 4, sMinecraftServer);
+                    if(sMinecraftServer.getPlayerList().getPlayerByName(handItemName).isSpectator()){
+                        String respawncmd = "tellraw @a [\"\",{\"text\":\"✞ Player \"},{\"text\":\"" + handItemName + "\",\"bold\":true,\"color\":\"green\"},{\"text\":\" has been resurrected ✞\"}]";
+                        System.out.println("teleport " + handItemName + " " + player.getDisplayName().getString());
+                        Utils.ExecuteCommandAs(player, "teleport " + handItemName + " " + player.getDisplayName().getString(), 4, sMinecraftServer);
+                        player.getInventory().removeItem(player.getItemInHand(hand));
+                        Utils.ExecuteCommandAs(player, "gamemode survival " + handItemName, 4, sMinecraftServer);
+                        Utils.ExecuteCommandAs(player, respawncmd, 4, sMinecraftServer);
+                    } else {
+                        Utils.ExecuteCommandAs(player, "tellraw @s {\"text\":\"It looks like the player is not dead...\\nAre you trying to say something?\"}", 4,sMinecraftServer);
+                    }
                 } else{
-                    String command = "tellraw @a [\"\",{\"text\":\"Player \"},{\"text\":\"" + handItemName + "\",\"bold\":true,\"color\":\"red\"},{\"text\":\" not found\"}]";
+                    String command = "tellraw @s [\"\",{\"text\":\"Player \"},{\"text\":\"" + handItemName + "\",\"bold\":true,\"color\":\"red\"},{\"text\":\" not found\"}]";
                     Utils.ExecuteCommandAs(player, command, 4, sMinecraftServer);
                 }
             } else {
-                String command = "/tellraw @s [\"\",{\"text\":\"!!!\",\"obfuscated\":true},{\"text\":\"You have to \"},{\"text\":\"rename\",\"bold\":true},{\"text\":\" me with the \"},{\"text\":\"name\",\"bold\":true},{\"text\":\" of the \"},{\"text\":\"dead person\",\"bold\":true},{\"text\":\".\"},{\"text\":\"!!!\",\"obfuscated\":true}]";
+                String command = "tellraw @s [\"\",{\"text\":\"!!!\",\"obfuscated\":true},{\"text\":\"You have to \"},{\"text\":\"rename\",\"bold\":true},{\"text\":\" me with the \"},{\"text\":\"name\",\"bold\":true},{\"text\":\" of the \"},{\"text\":\"dead person\",\"bold\":true},{\"text\":\".\"},{\"text\":\"!!!\",\"obfuscated\":true}]";
                 Utils.ExecuteCommandAs(player, command, 4,sMinecraftServer);
             }
         }
