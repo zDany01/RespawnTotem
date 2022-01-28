@@ -1,9 +1,9 @@
-C:\Users\danyb\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.1-39.0.59_mapped_official_1.18.1\forge-1.18.1-39.0.59_mapped_official_1.18.1-recomp.jar
+C:\Users\danyb\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.1-39.0.63_mapped_official_1.18.1\forge-1.18.1-39.0.63_mapped_official_1.18.1-recomp.jar
 C:\Users\danyb\.gradle\caches\forge_gradle\minecraft_repo\versions\1.18.1\client-extra.jar
-C:\Users\danyb\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.18.1-39.0.59\e31e792bc5c4cefd5b9ad860a6764eaf1a0d8d57\javafmllanguage-1.18.1-39.0.59.jar
-C:\Users\danyb\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.18.1-39.0.59\6c8f4ca14594f69dd994236e59bc5455ed441f9\mclanguage-1.18.1-39.0.59.jar
-C:\Users\danyb\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.18.1-39.0.59\377ba7598f3ef8e4eb34f8773ad6156a6c8d914b\fmlcore-1.18.1-39.0.59.jar
-C:\Users\danyb\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.18.1-39.0.59\49574e8246e2b32402604123da4356f3b8fd3fad\fmlloader-1.18.1-39.0.59.jar
+C:\Users\danyb\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.18.1-39.0.63\87ae6d1799122e32a4cf0b8d1e9673f9a4e2ed13\javafmllanguage-1.18.1-39.0.63.jar
+C:\Users\danyb\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.18.1-39.0.63\7f5ea11b7a3ee6f0f2474db2f2b2009284f4cad4\mclanguage-1.18.1-39.0.63.jar
+C:\Users\danyb\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.18.1-39.0.63\b90fd7a859795a1165e724224e6d9970e8c8a91\fmlcore-1.18.1-39.0.63.jar
+C:\Users\danyb\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.18.1-39.0.63\d50bd05ddea1498939c181254879eee5ca549da2\fmlloader-1.18.1-39.0.63.jar
 C:\Users\danyb\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\31.0.1-jre\119ea2b2bc205b138974d351777b20f02b92704b\guava-31.0.1-jre.jar
 C:\Users\danyb\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar
 C:\Users\danyb\.gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.0.0\6ef160c3133a78de015830860197602ca1c855d3\java-objc-bridge-1.0.0.jar
@@ -16,7 +16,7 @@ C:\Users\danyb\.gradle\caches\modules-2\files-2.1\net.minecraftforge\forgespi\4.
 C:\Users\danyb\.gradle\caches\modules-2\files-2.1\net.minecraftforge\eventbus\5.0.7\5589e7511c4993054e6a80890618b46ed53519a0\eventbus-5.0.7.jar
 C:\Users\danyb\.gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\9.1.0\64d27cad2f5340065ed0b29f45a264ba47b1ee4f\modlauncher-9.1.0.jar
 C:\Users\danyb\.gradle\caches\modules-2\files-2.1\cpw.mods\bootstraplauncher\1.0.0\f55ddbb35612c6745cefc47d1a0d6dbfb25d3982\bootstraplauncher-1.0.0.jar
-C:\Users\danyb\.gradle\caches\modules-2\files-2.1\cpw.mods\securejarhandler\1.0.2\a7010a4110062e5d459fd96eb6fe3ef741b4ad20\securejarhandler-1.0.2.jar
+C:\Users\danyb\.gradle\caches\modules-2\files-2.1\cpw.mods\securejarhandler\1.0.3\acbf5e3c8a38fb8bf824a54fe45eee121c510392\securejarhandler-1.0.3.jar
 C:\Users\danyb\.gradle\caches\modules-2\files-2.1\org.openjdk.nashorn\nashorn-core\15.3\43977e804697048fc8d81d333a36c17d07a5b3dd\nashorn-core-15.3.jar
 C:\Users\danyb\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\9.2\f4d7f0fc9054386f2893b602454d48e07d4fbead\asm-commons-9.2.jar
 C:\Users\danyb\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.2\fbc178fc5ba3dab50fd7e8a5317b8b647c8e8946\asm-util-9.2.jar

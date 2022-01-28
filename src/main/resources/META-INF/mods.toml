@@ -7,7 +7,6 @@ version="${file.jarVersion}" #mandatory
 displayName="Respawn Totem" #mandatory
 displayURL="https://github.com/zDany01/RespawnTotem/" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-logoFile="logo.png" #optional
 authors="zDany01" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description=''' RespawnTotem is a forge mod that adds a Totem that make possible respawning dead player in Hardcore '''
